@@ -17,17 +17,17 @@ export default function Notifications() {
 
       <section className='pt-4'>
         {notif.map((items,idx)=>(
-          <div className='flex flex-row hover:bg-blue-200 p-4 gap-4'>
-            <div className='p-4 bg-gradient-to-r from-[#f82c17] to-[#c5105f] rounded-xl'>
-              <img className='max-w-[50%] m-auto' src={items.icon}/>
+          <div key={idx} className='flex flex-row hover:bg-blue-200 p-4 gap-4'>
+            <div className='p-4 m-auto bg-gradient-to-r from-[#f82c17] to-[#c5105f] rounded-xl'>
+              <img className='p-4 w-[20rem] m-auto' src={items.icon}/>
             </div>
             <div >
               <div className='flex flex-row justify-between '>
-                <a className='font-bold '>{items.title}</a>
+                <a className='font-bold lg:text-xl text-lg'>{items.title}</a>
                 <a className='text-[#a0a0a0]'>{items.hari}</a>
               </div>
-              <div className='pt-4'>
-                <a>{items.content}</a>
+              <div className='lg:pt-4 pt-1'>
+                <a className='lg:text-base text-sm'>{items.content}</a>
               </div>
             </div>
           </div>

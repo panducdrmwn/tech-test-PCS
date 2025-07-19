@@ -1,59 +1,69 @@
 import { FaCircleUser } from "react-icons/fa6";
-import test from '../../assets/1.png'
 import coin from '../../assets/coins.svg'
 import clock from '../../assets/clock.svg'
 import pill from '../../assets/pill.svg'
+import ava1 from '../../assets/ava1.svg'
+import ava2 from '../../assets/ava2.svg'
+import ava3 from '../../assets/ava3.svg'
+import ava4 from '../../assets/ava4.svg'
+import ava5 from '../../assets/ava5.svg'
+import ava6 from '../../assets/ava6.svg'
+import ava7 from '../../assets/ava7.svg'
+import ava8 from '../../assets/ava8.svg'
+import ava9 from '../../assets/ava9.svg'
+import ava10 from '../../assets/ava group.svg'
+
 
 export const users =  [
     {
     name:"Ana",
     location: "Sahid",
-    icon:test
+    icon:ava9
     }, 
     {
-    name:"Ana",
+    name:"Umi",
     location: "Sahid",
-    icon:test
+    icon:ava1
     }, 
     {
-        name:"Ana",
+        name:"Dida",
         location: "Sahid",
-        icon:test
+        icon:ava2
         },
         {
-            name:"Ana",
+            name:"Messi",
             location: "Sahid",
-            icon:test
+            icon:ava3
             },
             {
-                name:"Ana",
+                name:"Cafu",
                 location: "Sahid",
-                icon:test
+                icon:ava4
                 },
                 {
-                    name:"Ana",
+                    name:"Abi",
                     location: "Sahid",
-                    icon:test
+                    icon:ava5
                     },
-                    {
-                        name:"Ana",
-                        location: "Sahid",
-                        icon:test
-                        },
-                        {
-                            name:"Ana",
-                            location: "Sahid",
-                            icon:test
-                            },
-                            {
-                                name:"Ana",
-                                location: "Sahid",
-                                icon:test
-                                },
+                    // {
+                    //     name:"Anto",
+                    //     location: "Sahid",
+                    //     icon:ava6
+                    //     },
+                        // {
+                        //     name:"Bro",
+                        //     location: "WFH",
+                        //     icon:ava7
+                        //     },
+                        //     {
+                        //         name:"Jon",
+                        //         location: "Sahid",
+                        //         icon:ava8
+                        //         },
                                 {
                                     name:"10",
                                     location: "more",
-                                    icon:"ten more"
+                                    icon:ava10
                                     }
     ]
   ;
@@ -63,7 +73,7 @@ export const users =  [
     name:"Ana Riswati",
     hari:"Senin",
     tanggal: "30 Mei 2022",
-    icon:test,
+    icon:ava1,
     kalimat:[
         'Kalimat 1 - Lorem ipsum dolor sit amet, consect',
         'Kalimat 2 - Lorem ipsum dolor sit amet, consect',
@@ -75,7 +85,7 @@ export const users =  [
         name:"Ana Riswati",
         hari:"Selasa",
         tanggal: "31 Mei 2022",
-        icon:test,
+        icon:ava2,
         kalimat:[
             'Kalimat 1 - Lorem ipsum dolor sit amet, consect',
             'Kalimat 2 - Lorem ipsum dolor sit amet, consect',
@@ -87,7 +97,7 @@ export const users =  [
             name:"Ana Sarawa",
             hari:"Rabu",
             tanggal: "01 Juni 2022",
-            icon:test,
+            icon:ava4,
             kalimat:[
                 'Kalimat 1 - Lorem ipsum dolor sit amet, consect',
                 'Kalimat 2 - Lorem ipsum dolor sit amet, consect',
@@ -102,49 +112,49 @@ export const users =  [
     {
     title:"Reimbursement",
     hari:"Senin",
-    content: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut a",
+    content: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam",
     icon:coin,
     },
     {
         title:"Reimbursement",
         hari:"Senin",
-        content: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut a",
+        content: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam",
         icon:coin,
         }  ,
         {
             title:"Reimbursement",
             hari:"Senin",
-            content: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut a",
+            content: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam",
             icon:coin,
             }  ,
             {
                 title:"Sickness",
                 hari:"Senin",
-                content: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut a",
+                content: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam",
                 icon:pill,
                 }  ,
                 {
                     title:"Sickness",
                     hari:"Senin",
-                    content: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut a",
+                    content: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam",
                     icon:pill,
                     }  ,
                     {
                         title:"Sickness",
                         hari:"Senin",
-                        content: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut a",
+                        content: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam",
                         icon:pill,
                         }  ,
                         {
                             title:"Overtime",
                             hari:"Senin",
-                            content: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut a",
+                            content: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam",
                             icon:clock,
                             }  ,
                             {
                                 title:"Overtime",
                                 hari:"Senin",
-                                content: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut a",
+                                content: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam",
                                 icon:clock,
                                 }     
     ]
