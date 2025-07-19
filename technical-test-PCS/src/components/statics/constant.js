@@ -1,5 +1,8 @@
 import { FaCircleUser } from "react-icons/fa6";
 import test from '../../assets/1.png'
+import coin from '../../assets/coins.svg'
+import clock from '../../assets/clock.svg'
+import pill from '../../assets/pill.svg'
 
 export const users =  [
     {
@@ -92,5 +95,57 @@ export const users =  [
                 'Kalimat 4 - Lorem ipsum dolor sit amet, consect'
             ]
             }, 
+    ]
+  ;
+
+  export const notif =  [
+    {
+    title:"Reimbursement",
+    hari:"Senin",
+    content: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut a",
+    icon:coin,
+    },
+    {
+        title:"Reimbursement",
+        hari:"Senin",
+        content: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut a",
+        icon:coin,
+        }  ,
+        {
+            title:"Reimbursement",
+            hari:"Senin",
+            content: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut a",
+            icon:coin,
+            }  ,
+            {
+                title:"Sickness",
+                hari:"Senin",
+                content: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut a",
+                icon:pill,
+                }  ,
+                {
+                    title:"Sickness",
+                    hari:"Senin",
+                    content: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut a",
+                    icon:pill,
+                    }  ,
+                    {
+                        title:"Sickness",
+                        hari:"Senin",
+                        content: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut a",
+                        icon:pill,
+                        }  ,
+                        {
+                            title:"Overtime",
+                            hari:"Senin",
+                            content: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut a",
+                            icon:clock,
+                            }  ,
+                            {
+                                title:"Overtime",
+                                hari:"Senin",
+                                content: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut a",
+                                icon:clock,
+                                }     
     ]
   ;

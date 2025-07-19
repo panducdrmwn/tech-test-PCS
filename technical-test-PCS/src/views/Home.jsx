@@ -32,7 +32,7 @@ export default function Home() {
   
         <a className='object-fill text-2xl text-left ml-0'>Hi, Good Morning!</a>
        
-        <div className=' text-white my-4 p-5 rounded-xl bg-gradient-to-r from-[#f82c17] to-[#c5105f]'>
+        <div className=' text-white my-4 p-10 rounded-xl bg-gradient-to-r from-[#f82c17] to-[#c5105f]'>
             <div className='flex flex-row '>
                 <div className='w-[20%]'>
                 <div className="border border-white/[.2] rounded-full bg-gray-600 lg:w-22 lg:h-22 w-12 h-12 flex justify-center items-center">
@@ -148,7 +148,7 @@ export default function Home() {
       
     </div>
 
-    <div className='text-[#a0a0a0] py-2 px-10 sticky bottom-0 shadow-[0px_-7px_6px_0px_rgba(50,_50,_93,_0.25)] bg-white flex flex-row justify-between [&>*]:hover:text-[#f82c17]'>
+    <div className=' z-[100] text-[#a0a0a0] py-2 px-10 sticky bottom-0 shadow-[0px_-7px_6px_0px_rgba(50,_50,_93,_0.25)] bg-white flex flex-row justify-between [&>*]:hover:text-[#f82c17]'>
         <div className='flex flex-col items-center'>
             <a className='text-2xl'><FaHome /></a>
             <a>Home</a>
