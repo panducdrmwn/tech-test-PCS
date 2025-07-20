@@ -12,6 +12,9 @@ import ava7 from '../../assets/ava7.svg'
 import ava8 from '../../assets/ava8.svg'
 import ava9 from '../../assets/ava9.svg'
 import ava10 from '../../assets/ava group.svg'
+import check from '../../assets/check.svg'
+import crosss from '../../assets/crosss.svg'
+import ongoing from '../../assets/ongoing.svg'
 
 
 export const users =  [
@@ -114,48 +117,50 @@ export const users =  [
     hari:"Senin",
     content: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam",
     icon:coin,
-    },
+    status:check},
     {
         title:"Reimbursement",
         hari:"Senin",
         content: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam",
         icon:coin,
-        }  ,
+        status:check    }  ,
         {
             title:"Reimbursement",
             hari:"Senin",
             content: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam",
             icon:coin,
-            }  ,
+            status:check        }  ,
             {
                 title:"Sickness",
                 hari:"Senin",
                 content: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam",
                 icon:pill,
-                }  ,
+                status:crosss         }  ,
                 {
                     title:"Sickness",
                     hari:"Senin",
                     content: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam",
                     icon:pill,
-                    }  ,
+                    status:crosss                }  ,
                     {
                         title:"Sickness",
                         hari:"Senin",
                         content: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam",
                         icon:pill,
-                        }  ,
+                        status:crosss                    }  ,
                         {
                             title:"Overtime",
                             hari:"Senin",
                             content: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam",
                             icon:clock,
+                            status:ongoing
                             }  ,
                             {
                                 title:"Overtime",
                                 hari:"Senin",
                                 content: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam",
                                 icon:clock,
+                                status:ongoing
                                 }     
     ]
   ;
